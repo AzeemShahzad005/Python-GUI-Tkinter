@@ -16,7 +16,7 @@ background_label.place(x=0, y=0, relwidth=1, relheight=1)
 Tops = Frame(root,width=300,height=50)
 Tops.pack(side=TOP)
 
-#-----------Behind Buttons Frame--------
+#-----------Behind Buttons Frame------
 
 f1 = Frame(root,width=800,height=600,bg='steel blue')
 f1.pack()
@@ -25,7 +25,7 @@ f1.pack()
 f2 = Frame(root,width=800,height=30,bg='steel blue')
 f2.pack(side=BOTTOM)
 
-#-----------------TOP Frame Info------------
+#-----------------TOP Frame Info--------
 
 lblinfo = Label(Tops,bg='steel blue', font=( 'comic sans ms' ,30, 'bold' ),text="Python---GUI---Tkinter",fg="white",bd=10)
 lblinfo.grid(row=0,column=0)
