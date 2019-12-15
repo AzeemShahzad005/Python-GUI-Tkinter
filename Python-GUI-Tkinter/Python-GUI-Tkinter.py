@@ -31,13 +31,13 @@ lblinfo = Label(Tops,bg='steel blue', font=( 'comic sans ms' ,30, 'bold' ),text=
 lblinfo.grid(row=0,column=0)
 
 
-#---------Function on Button---------
+#---------Function on Button-----------
 
 def qexit ():
     root.destroy ()
 
 
-#-----------------------------------------Buttons------------------------------------------
+#-----------------------------------------Buttons----------------------------------------------------------------------
 
 btn1=Button(f1,padx=16,pady=8,fg="green",font=('comic sans ms' ,14,'bold'),width=18, text="Button 1",bd=12, bg="silver")
 btn1.grid(row=0, column=4,padx = 20 , pady = 10)
