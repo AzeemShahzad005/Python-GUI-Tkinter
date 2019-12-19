@@ -4,14 +4,14 @@ root = Tk()
 root.geometry("800x500")
 root.title("Python GUI Tkinter")
 
-#---------Background Image---------
+#---------Background Image----------
 
 c= Canvas(root, height=500, width=800)
 filename = PhotoImage(file = "Backgrond.png")
 background_label = Label(root, image=filename)
 background_label.place(x=0, y=0, relwidth=1, relheight=1)
 
-#------------TOP Frame--------------
+#------------TOP Frame---------------
 
 Tops = Frame(root,width=300,height=50)
 Tops.pack(side=TOP)
@@ -20,18 +20,18 @@ Tops.pack(side=TOP)
 
 f1 = Frame(root,width=800,height=600,bg='steel blue')
 f1.pack()
-#-----------BOTTOM Frame--------------
+#-----------BOTTOM Frame---------------
 
 f2 = Frame(root,width=800,height=30,bg='steel blue')
 f2.pack(side=BOTTOM)
 
-#-----------------TOP Frame Info--------
+#-----------------TOP Frame Info---------
 
 lblinfo = Label(Tops,bg='steel blue', font=( 'comic sans ms' ,30, 'bold' ),text="Python---GUI---Tkinter",fg="white",bd=10)
 lblinfo.grid(row=0,column=0)
 
 
-#---------Function on Button-----------
+#---------Function on Button------------
 
 def qexit ():
     root.destroy ()
